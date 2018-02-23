@@ -37,7 +37,7 @@
   "dependencies": {
     "babel-runtime": "^6.23.0",
     "mocha-extended": "git+https://github.com/dasarianudeep/mocha-extended.git",
-    "wdio-sync": "git+https://github.com/dasarianudeep/wdio-sync.git"
+    "wdio-extended-sync": "git+https://github.com/dasarianudeep/wdio-sync.git"
   },
   "devDependencies": {
     "babel-cli": "~6.26.0",
