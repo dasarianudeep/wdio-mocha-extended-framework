@@ -60,7 +60,7 @@ describe('mocha adapter', () => {
 
         let cid = 1
         const title = 'mocha-tests'
-        let config = { framework: 'mocha', title: title }
+        let config = { framework: 'mocha-extended', title: title }
         let specs = ['fileA.js', 'fileB.js']
         let caps = { browserName: 'chrome' }
 
