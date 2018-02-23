@@ -175,7 +175,7 @@ var MochaAdapter = function () {
                                     _get__('INTERFACES')[mochaOpts.ui].forEach(function (fnName) {
                                         var testCommand = _get__('INTERFACES')[mochaOpts.ui][2];
 
-                                        _get__('runInFiberContext')([testCommand, testCommand + '.only'], _this.config.beforeHook, _this.config.afterHook, fnName);
+                                        _get__('runInFiberContext')([testCommand, testCommand + '.only', testCommand + '.P1', testCommand + '.P2'], _this.config.beforeHook, _this.config.afterHook, fnName);
                                     });
                                 });
 
