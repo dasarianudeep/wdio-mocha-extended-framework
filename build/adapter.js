@@ -61,7 +61,7 @@ var _mochaExtended = require('mocha-extended');
 
 var _mochaExtended2 = _interopRequireDefault(_mochaExtended);
 
-var _wdioSync = require('wdio-sync');
+var _wdioSync = require('wdio-extended-sync');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
